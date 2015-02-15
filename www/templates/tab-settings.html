@@ -1,0 +1,9 @@
+<ion-view view-title="Configuración">
+  <ion-content class="padding">
+    <ion-toggle ng-model="writeMode" ng-checked="writeMode" ng-click="updateNFCMode()">Envío de datos</ion-toggle>
+    <h3>Inserte a continuación el mensaje a enviar</h3>
+    <textarea id="inputMsg" rows="4" cols="50" placeholder="Inserte aquí el texto"></textarea>
+    <h3>Registro de mensajes</h3>
+    <textarea id="log" rows="10" cols="50" readonly></textarea>
+  </ion-content>
+</ion-view>

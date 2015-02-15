@@ -1,0 +1,13 @@
+/* Empty. Add your own CSS if you like */
+
+#inputMsg {
+	border-radius: 5px;
+	border: solid 1px gray;
+	padding: 3%;
+}
+
+#log {
+	border-radius: 5px;
+	border: solid 1px gray;
+	padding: 3%;
+}
